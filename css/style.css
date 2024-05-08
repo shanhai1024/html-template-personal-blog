@@ -1,0 +1,49 @@
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/heroimg.webp");
+    background-size: contain;
+    position: relative;
+}
+nav{
+    height: 64px;
+    display: flex;
+    /*background-image: url('your-image-url.jpg');*/
+    background-size: cover;
+    backdrop-filter: blur(10px); /* 调整模糊程度 */
+}
+nav span{
+
+    color: white;
+    font-size: 30px;
+    /*text-align: center;*/
+}
+nav svg{
+    height: 78px;
+}
+.logo{
+
+}
+.logo font{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.welcomeMessage{
+    width: 500px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* 将元素向左上方移动自身宽高的一半，实现居中效果 */
+
+
+
+}
+.welcomeMessage font{
+    font-size: 80px;
+}
+.welcomeMessage p{
+    font-size: 20px;
+    color: white;
+}
